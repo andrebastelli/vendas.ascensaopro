@@ -10,7 +10,7 @@ function Logo() {
   );
 }
 
-function CTA({ children = "Quero me inscrever agora" }) {
+function CTA({ children = "Quero me inscrever" }) {
   return (
     <a href={CHECKOUT_URL} target="_blank" rel="noopener noreferrer" className="btn-premium">
       {children}
@@ -236,7 +236,7 @@ export default function App() {
             Sua próxima fase começa <span className="text-gold">aqui</span>.
           </h2>
           <p className="mt-5 text-lg text-ink/60">4 meses. Um método. Acompanhamento real. Resultados consistentes.</p>
-          <div className="mt-10"><CTA>Quero me inscrever na Jornada</CTA></div>
+          <div className="mt-10"><CTA>Quero me inscrever</CTA></div>
         </div>
       </section>
 
